@@ -16,7 +16,7 @@ const Home = () => {
         <Container maxWidth="md">
             <Box sx={{ mt: 4, textAlign: "center" }}>
                 <Typography variant="h3" component="h1" gutterBottom>
-                    React Hooks Practice
+                    React Hooks Practice(For Medai)
                 </Typography>
                 <Typography variant="h6" color="text.secondary" sx={{ mb: 4 }}>
                     Click on a hook to learn more about it
