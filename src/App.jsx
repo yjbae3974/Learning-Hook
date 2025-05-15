@@ -8,8 +8,8 @@ import UseEffect from "./pages/UseEffect";
 import UseRef from "./pages/UseRef";
 import UseMemo from "./pages/UseMemo";
 import UseCallback from "./pages/UseCallback";
-import UseReducer from "./Pages/UseReducer";
-import UseContext from "./Pages/UseContext";
+import UseReducer from "./pages/UseReducer";
+import UseContext from "./pages/UseContext";
 import { useState } from "react";
 
 function App() {
