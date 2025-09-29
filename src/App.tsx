@@ -11,9 +11,10 @@ import UseCallback from "./pages/UseCallback";
 import UseReducer from "./pages/UseReducer";
 import UseContext from "./pages/UseContext";
 import { useState } from "react";
+import type { ThemeMode } from "./types";
 
 function App() {
-    const [mode, setMode] = useState("dark");
+    const [mode, setMode] = useState<ThemeMode>("dark");
 
     const theme = createTheme({
         palette: {
